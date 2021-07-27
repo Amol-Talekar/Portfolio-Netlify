@@ -1,0 +1,43 @@
+.navbarGrid{
+    display: flex;
+    flex-direction: row ;
+    gap: 3vw;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 2vw;
+    text-decoration: none;
+    padding: 1vw;
+   justify-content: center;
+  text-align: center;
+  
+   margin: auto;
+    
+   
+}
+
+.navlinkClass{
+    text-decoration: none;
+    color: black;
+}
+.navlinkClass:hover{
+    color: blue;
+}
+
+  @media screen and (max-width: 768px){
+    .navbarGrid{
+        display: flex;
+        flex-direction: row ;
+        gap: 3vw;
+        border: 2px solid black;
+        font-size: 3.5vw;
+        font-weight: bolder;
+        text-decoration: none;
+        padding: 1vw;
+       justify-content: center;
+      text-align: center;
+      
+       margin: auto;
+        
+       
+    }
+  }
