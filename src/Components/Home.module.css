@@ -84,6 +84,8 @@
    gap: 1vw;
     display: flex;
     flex-direction: row;
+    align-content: center;
+    
 }
 .contactDropH1Class{
     font-size: 2vw;
@@ -95,7 +97,7 @@
 @media screen and (max-width: 480px) {
     .projectImgClass{
         margin-top: 2vh;
-        width: 30vw;
+        width: 80vw;
     }
 
     .mainHomeDiv{
@@ -161,4 +163,8 @@
         height: 9vw;
         
      }
+     .projectImgClass{
+       
+        width: 80vw;
+    }
   }
