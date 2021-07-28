@@ -172,7 +172,7 @@ const Home = () => {
                 </div>
                 <div className={styles.contactSingleDiv}>
                     <EmailIcon fontSize="large" /> 
-                    <span className={styles.contactClass}>amoll11talekar@gmail.com</span>
+                    <span className={styles.contactClass}>amol11talekar@gmail.com</span>
                 </div>
                 <div className={styles.contactSingleDiv}>
                     <LinkedInIcon fontSize="large"/>
