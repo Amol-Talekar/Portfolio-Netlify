@@ -176,7 +176,7 @@ const Home = () => {
                 </div>
                 <div className={styles.contactSingleDiv}>
                     <LinkedInIcon fontSize="large"/>
-                    <Link to="/#" className={styles.contactClass} onClick={()=>window.open("https://www.linkedin.com/in/amol-talekar-089210207/","_blank")} >https://www.linkedin.com/in/amol-talekar-089210207/</Link>
+                    <Link to="/#" className={styles.contactClass} onClick={()=>window.open("https://www.linkedin.com/in/amol-talekar/","_blank")} >https://www.linkedin.com/in/amol-talekar/</Link>
 
                 </div>
                 <div className={styles.contactSingleDiv}>
@@ -194,7 +194,7 @@ const Home = () => {
                         className={classes.resumeButton}
                         endIcon={<SystemUpdateAltIcon fontSize="large" />}
                         >
-                        Click here to download my Resume
+                        <p className={styles.resumeButtonParaClass}>Click here to download my Resume</p>
                        </Button>
 
                 </div>
