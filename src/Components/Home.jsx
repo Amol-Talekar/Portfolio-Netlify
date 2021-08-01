@@ -10,8 +10,7 @@ import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 import SystemUpdateAltIcon from '@material-ui/icons/SystemUpdateAlt';
 import { Wave } from 'react-animated-text';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css'; 
 AOS.init();
 
 
@@ -73,14 +72,14 @@ const Home = () => {
                 </div>
                
                <div>
-                <h1 className={styles.abouth2Class}><span  ><Wave  text="Hi there, I am  Amol Talekar," ></Wave></span>   it is very nice to meet you!</h1>
-                <h2 className={styles.abouth2Class}>I am a passionate aspiring Full Stack Developer skilled in MERN stack, moulded and shaped by Masai school’s intensive and immersive learning.  Look forward to joining a company where I will  be able to contribute towards individual and company growth.</h2>
+                <h1 className={styles.abouth1Class}><span  ><Wave  text="Hi there, I am  Amol Talekar," ></Wave></span>   it is very nice to meet you!</h1>
+                <h2 className={styles.abouth2Class}>I am a passionate aspiring Full Stack Developer skilled in MERN stack, molded and shaped by Masai school’s intensive and disciplined teaching. Looking forward to joining a company where I will be able to contribute towards individual and company growth.</h2>
            
                </div>
             </div>
 
             <Box  className={classes.techBox} boxShadow={3}>
-            <h1>Tech Stacks with I work</h1>
+            <h1 className={styles.headingAlignClass}>Skills</h1>
             <div className={styles.techGrid} id="tech">
                   <Box className={classes.individualTechBox} boxShadow={3}>
                       <img className={styles.techImgClass} alt="React" src="/reactlogo.png" />
@@ -141,7 +140,7 @@ const Home = () => {
             
             
             <Box id="projects" className={classes.projectBox} boxShadow={3}>
-                <h1>My Projects</h1>
+                <h1 className={styles.headingAlignClass} >My Projects</h1>
                 <Box data-aos="flip-left" className={classes.individualProjectBox} boxShadow={3}>
                     <Link to="/#" className={styles.externalLinksClass} onClick={()=>window.open("https://github.com/Amol-Talekar/travelocity","_blank")} >travelocity.com</Link>
                     <img className={styles.projectImgClass} alt="travelocity" src="/travelocitylogo.png" />
@@ -176,12 +175,12 @@ const Home = () => {
                 </div>
                 <div className={styles.contactSingleDiv}>
                     <LinkedInIcon fontSize="large"/>
-                    <Link to="/#" className={styles.contactClass} onClick={()=>window.open("https://www.linkedin.com/in/amol-talekar/","_blank")} >https://www.linkedin.com/in/amol-talekar/</Link>
+                    <Link to="/#" className={styles.contactClass} onClick={()=>window.open("https://www.linkedin.com/in/amol-talekar/","_blank")} >LinkedIn</Link>
 
                 </div>
                 <div className={styles.contactSingleDiv}>
                     <GitHubIcon fontSize="large"/>
-                    <Link to="/#" className={styles.contactClass} onClick={()=>window.open("https://github.com/Amol-Talekar","_blank")} >https://github.com/Amol-Talekar</Link>
+                    <Link to="/#" className={styles.contactClass} onClick={()=>window.open("https://github.com/Amol-Talekar","_blank")} >Github</Link>
 
                 </div>
 

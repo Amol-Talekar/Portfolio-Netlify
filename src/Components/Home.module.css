@@ -18,6 +18,13 @@
 }
 .abouth2Class{
     font-size: 2vw;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+}
+.abouth1Class{
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 .techImgClass{
     height: 10vh;
@@ -34,12 +41,19 @@
     font-size: 2vw;
     font-weight: bolder;
 }
+.headingAlignClass{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vw;
+}
 .externalLinksClass{
     font-size: 2vw;
     text-decoration: none;
     padding: 0.2vw;
     color: black;
     border-bottom: 2px dashed gray;
+    font-family: 'Open Sans', sans-serif;
+    
     
 }
 .externalLinksClass:hover{
@@ -48,11 +62,12 @@
     border-color: blue;
 }
 .projectImgClass{
-    margin-top: 2vh;
+    margin-top: 3.5vh;
     width: 80vw;
 }
 .projectParaClass{
     font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
 }
 .contactClass{
     text-decoration: none;
@@ -61,6 +76,7 @@
     margin-left: 0.5vw;
     color: black;
     border-bottom: 1px dotted gray;
+    font-family: 'Open Sans', sans-serif;
    
 }
 .contactClass:hover{
@@ -75,6 +91,7 @@
     display: flex;
     flex-direction: row;
     gap: 1vw;
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -89,6 +106,7 @@
     display: flex;
     flex-direction: row;
     align-content: center;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .contactDropH1Class{
@@ -96,6 +114,11 @@
     text-align: left;
     padding: 0.2vw;
     margin: 0.2vw;
+    font-family: 'Open Sans', sans-serif;
+}
+.resumeButtonParaClass{
+    
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 480px) {
@@ -118,6 +141,7 @@
   @media screen and (max-width: 768px) {
     .abouth2Class{
         font-size: 2.8vw;
+        font-weight: lighter;
     }
     
    .profileImgClass{
@@ -135,7 +159,7 @@
     }
     .techGrid{
        width: 90vw;
-        grid-template-columns: 1fr 1fr 1fr ;
+       grid-template-columns: 1fr 1fr 1fr ;
         
     }
     .projectParaClass{
@@ -180,5 +204,16 @@
     }
     .resumeButtonParaClass{
         font-size: 2.5vw;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .abouth1Class{
+        font-size: 3vw;
+        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .headingAlignClass{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 3.5vw;
     }
   }

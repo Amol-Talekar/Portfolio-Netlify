@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className={styles.navbarGrid}>
                 <NavHashLink className={styles.navlinkClass} to="/" >Home</NavHashLink>
                 <NavHashLink className={styles.navlinkClass} smooth to="/#about" >About Me</NavHashLink>
-                <NavHashLink className={styles.navlinkClass} smooth to="/#tech" >Tech</NavHashLink>
+                <NavHashLink className={styles.navlinkClass} smooth to="/#tech" >Skills</NavHashLink>
                 <NavHashLink className={styles.navlinkClass} smooth to="/#projects" >Projects</NavHashLink>
                 <NavHashLink className={styles.navlinkClass} smooth to="/#contact" >Contact Me!</NavHashLink>
                 
