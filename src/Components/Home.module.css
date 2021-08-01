@@ -183,10 +183,18 @@
         box-shadow: 10px;
     }
     .techGrid{
-        width: 90vw;
+        width: 82vw;
          grid-template-columns: 1fr 1fr ;
+         justify-content: space-around;
          
      }
+     .techImgClass{
+        height: 5vh;
+    }
+    .techParaClass{
+        font-size: 2vw;
+        font-weight: bolder;
+    }
      .resumeImgClass{
         height: 9vw;
         
@@ -208,12 +216,17 @@
     }
     .abouth1Class{
         font-size: 3vw;
-        font-weight: normal;
+        font-weight: bold;
         font-family: 'Open Sans', sans-serif;
     }
     .headingAlignClass{
         text-align: center;
         font-family: 'Open Sans', sans-serif;
         font-size: 3.5vw;
+    }
+    .abouth2Class{
+        font-size: 2vw;
+        font-weight: normal;
+        font-family: 'Open Sans', sans-serif;
     }
   }
