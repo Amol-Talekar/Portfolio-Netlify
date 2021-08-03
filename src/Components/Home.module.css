@@ -18,7 +18,7 @@
     color: gray;
 }
 .abouth2Class{
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: lighter;
     font-family: 'Open Sans', sans-serif;
 }
@@ -69,6 +69,19 @@
 .projectParaClass{
     font-size: 2vw;
     font-family: 'Open Sans', sans-serif;
+}
+.projectButtonClass{
+    height: 5vh;
+    width: 12vw;
+    margin: 0.2vw;
+    padding: 0.2vw;
+    font-size: 1.8vw;
+    border-radius: 20px;
+    
+}
+.projectButtonClass:hover{
+    color: blue;
+   
 }
 .contactClass{
     text-decoration: none;
@@ -123,7 +136,15 @@
     
     font-family: 'Open Sans', sans-serif;
 }
-
+.footerClass{
+    padding: 3px;
+    margin: 3px;
+    text-align: right;
+    justify-content: right;
+    font-size: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 10px;
+}
 @media screen and (max-width: 480px) {
     .projectImgClass{
         margin-top: 2vh;
@@ -177,6 +198,14 @@
         font-size: 3.6vw;
         border-color: blue;
     }
+    .footerClass{
+        padding: 3px;
+        margin: 3px;
+        text-align: right;
+        justify-content: right;
+        font-size: 2vw;
+        font-family: 'Open Sans', sans-serif;
+    }
   }
 
   @media screen and (max-width: 360px) {
@@ -206,6 +235,19 @@
        
         width: 80vw;
     }
+    .projectButtonClass{
+        height: 4vh;
+        width: 20vw;
+        margin: 0.2vw;
+        padding: 0.2vw;
+        font-size: 3vw;
+        border-radius: 20px;
+        border: 0.2px solid black;
+    }
+    .projectButtonClass:hover{
+        color: blue;
+       
+    }
     .contactClass{
        
         font-size: 4vw;
@@ -214,7 +256,7 @@
        
     }
     .resumeButtonParaClass{
-        font-size: 2.5vw;
+        font-size: 3vw;
         font-family: 'Open Sans', sans-serif;
     }
     .abouth1Class{
@@ -232,4 +274,13 @@
         font-weight: normal;
         font-family: 'Open Sans', sans-serif;
     }
+    .footerClass{
+        padding: 3px;
+        margin: 3px;
+        text-align: right;
+        justify-content: right;
+        font-size: 2vw;
+        font-family: 'Open Sans', sans-serif;
+    }
+
   }

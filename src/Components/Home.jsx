@@ -47,7 +47,9 @@ const useStyles = makeStyles({
         height:"5vh",
         marginTop:"0.5vh",
         fontSize:"1.7vw",
-        fontWeight:"bolder"
+        fontWeight:"bolder",
+        borderRadius:"10px",
+        backgroundColor:"white"
        
     }
   });
@@ -60,6 +62,7 @@ const Home = () => {
         link.href = "AmolTalekarResume.pdf";
         link.click();
       };
+
 
    
     return (
@@ -144,19 +147,25 @@ const Home = () => {
                 <Box data-aos="flip-left" className={classes.individualProjectBox} boxShadow={3}>
                     <Link to="/#" className={styles.externalLinksClass} onClick={()=>window.open("https://github.com/Amol-Talekar/travelocity","_blank")} >travelocity.com</Link>
                     <img className={styles.projectImgClass} alt="travelocity" src="/travelocitylogo.png" />
-                    <p className={styles.projectParaClass}>Cloning travelocity.com, a website that caters to all travel needs using HTML, CSS3 and Advanced JavaScript</p>
+                    <p className={styles.projectParaClass}>travelocity.com is a website that caters to all travel needs of travelers. </p>
+                    <p className={styles.projectParaClass}>Tech Stack : HTML, CSS3 and Advanced JavaScript </p>
+                    <button onClick={()=>window.open("https://github.com/Amol-Talekar/travelocity","_blank")}  className={styles.projectButtonClass}>Visit Github</button>
                 </Box>
                 
                 <Box data-aos="flip-right" className={classes.individualProjectBox} boxShadow={3}> 
                 <Link to="/#" className={styles.externalLinksClass} onClick={()=>window.open("https://github.com/Amol-Talekar/unbounce","_blank")} >unbounce.com</Link>
                     <img className={styles.projectImgClass} alt="unbounce" src="/unbouncelogo.png" />
-                    <p className={styles.projectParaClass}>Cloning unbounce.com, a website that specializes in creating custom landing pages using HTML, CSS3 and JavaScript</p>
+                    <p className={styles.projectParaClass}>unbounce.com, a website that specializes in creating custom landing pages.</p>
+                    <p className={styles.projectParaClass}>Tech Stack : HTML, CSS3 and Advanced JavaScript </p>
+                    <button onClick={()=>window.open("https://github.com/Amol-Talekar/unbounce","_blank")} className={styles.projectButtonClass}>Visit Github</button>
                 </Box>
 
                 <Box data-aos="zoom-in" className={classes.individualProjectBox} boxShadow={3}>                   
                 <Link to="/#" className={styles.externalLinksClass} onClick={()=>window.open("https://github.com/shubham007kumar/Makemytrip","_blank")} >makemytrip.com</Link>
-                    <img className={styles.projectImgClass} alt="makemytrip" src="/makemytriplogo1.png" />
-                    <p className={styles.projectParaClass}>Cloning makemytrip.com, a website that provides all services while planning a trip using React, Redux, mongoDB, Material UI, HTML, CSS3 and JavaScript</p>
+                    <img className={styles.projectImgClass} alt="makemytrip" src="/makemytriplogo.png" />
+                    <p className={styles.projectParaClass}>Cloning makemytrip.com, a website that provides all services while planning a trip to any destination</p>
+                    <p className={styles.projectParaClass}>Tech Stack : React, Redux, mongoDB, Material UI, HTML, CSS3 and JavaScript</p>
+                    <button onClick={()=>window.open("https://github.com/shubham007kumar/Makemytrip","_blank")} className={styles.projectButtonClass}>Visit Github</button>
                 </Box>
 
                 
@@ -198,6 +207,9 @@ const Home = () => {
 
                 </div>
             </Box>
+            <div className={styles.footerClass}  > 
+                <p>Copyright &#169; 2021 All rights reserved</p>
+            </div>
             <div style={{height:"5vh"}}>
 
             </div>
