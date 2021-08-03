@@ -2,6 +2,7 @@
     width: 90vw;
     margin: auto;
     box-shadow: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 .profileImgClass{
     border-radius: 50%;
@@ -92,6 +93,8 @@
     flex-direction: row;
     gap: 1vw;
     font-family: 'Open Sans', sans-serif;
+    align-content: center;
+    align-items: center;
     
 }
 
