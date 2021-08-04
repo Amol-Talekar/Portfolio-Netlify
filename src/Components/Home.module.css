@@ -54,6 +54,10 @@
     color: black;
     border-bottom: 2px dashed gray;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
     
     
 }
@@ -148,7 +152,7 @@
 }
 @media screen and (max-width: 480px) {
     .projectImgClass{
-        margin-top: 2vh;
+        margin-top: 4vh;
         width: 80vw;
     }
 
@@ -156,6 +160,17 @@
        
         margin: auto;
         box-shadow: 10px;
+    }
+    .projectButtonClass{
+        height: 4vh;
+        width: 20vw;
+        margin: 0.2vw;
+        padding: 0.2vw;
+        font-size: 3vw;
+        border-radius: 20px;
+        border: 0.2px solid black;
+        background-color: white;
+        margin-bottom: 4vh;
     }
    
 
@@ -184,7 +199,7 @@
     }
     .techGrid{
        width: 90vw;
-       grid-template-columns: 1fr 1fr 1fr ;
+       grid-template-columns: 1fr 1fr ;
         
     }
     .projectParaClass{
@@ -192,7 +207,18 @@
     }
     .externalLinksClass{
         font-size: 3.5vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
         
+        
+    }
+    .externalLinkSpan{
+        text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+
     }
     .externalLinksClass:hover{
         color: blue;
@@ -209,7 +235,7 @@
     }
   }
 
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 480px) {
     .mainHomeDiv{
         width: 90vw;
         margin: auto;
@@ -225,7 +251,7 @@
         height: 5vh;
     }
     .techParaClass{
-        font-size: 2vw;
+        font-size: 2.5vw;
         font-weight: bolder;
     }
      .resumeImgClass{
@@ -245,6 +271,7 @@
         border-radius: 20px;
         border: 0.2px solid black;
         background-color: white;
+        margin-bottom: 2vh;
     }
     .projectButtonClass:hover{
         color: blue;
@@ -269,7 +296,7 @@
     .headingAlignClass{
         text-align: center;
         font-family: 'Open Sans', sans-serif;
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
     .abouth2Class{
         font-size: 2vw;

@@ -34,7 +34,9 @@ const useStyles = makeStyles({
     individualProjectBox:{
         margin:"1vw",
         padding:"1vw",
-        backgroundColor:"rgb(250, 249, 249)"
+        backgroundColor:"rgb(250, 249, 249)",
+        marginBottom:"4vh",
+        marginTop:"4vh"
     },
     contactBox:{
         margin:"1vw",
@@ -145,7 +147,7 @@ const Home = () => {
             <Box id="projects" className={classes.projectBox} boxShadow={3}>
                 <h1 className={styles.headingAlignClass} >My Projects</h1>
                 <Box data-aos="flip-left" className={classes.individualProjectBox} boxShadow={3}>
-                    <Link to="/#" className={styles.externalLinksClass} onClick={()=>window.open("https://github.com/Amol-Talekar/travelocity","_blank")} >travelocity.com</Link>
+                    <Link to="/#" className={styles.externalLinksClass} onClick={()=>window.open("https://github.com/Amol-Talekar/travelocity","_blank")} > <span className={styles.externalLinkSpan}>travelocity.com</span> </Link>
                     <img className={styles.projectImgClass} alt="travelocity" src="/travelocitylogo.png" />
                     <p className={styles.projectParaClass}>travelocity.com is a website that caters to all travel needs of travelers. </p>
                     <p className={styles.projectParaClass}>Tech Stack : HTML, CSS3 and Advanced JavaScript </p>
