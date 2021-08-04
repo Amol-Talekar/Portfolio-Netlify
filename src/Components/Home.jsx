@@ -127,7 +127,7 @@ const Home = () => {
                   
                   <Box className={classes.individualTechBox} boxShadow={3}>
                       <img className={styles.techImgClass} alt="MongoDB" src="/mongologo.png" />
-                      <p className={styles.techParaClass}>mongoDB</p>
+                      <p className={styles.techParaClass}>MongoDB</p>
                   </Box>
                   
                   <Box className={classes.individualTechBox} boxShadow={3}>
@@ -151,7 +151,10 @@ const Home = () => {
                     <img className={styles.projectImgClass} alt="travelocity" src="/travelocitylogo.png" />
                     <p className={styles.projectParaClass}>travelocity.com is a website that caters to all travel needs of travelers. </p>
                     <p className={styles.projectParaClass}>Tech Stack : HTML, CSS3 and Advanced JavaScript </p>
-                    <button onClick={()=>window.open("https://github.com/Amol-Talekar/travelocity","_blank")}  className={styles.projectButtonClass}>Visit Github</button>
+                    <div>
+                        <button onClick={()=>window.open("https://github.com/Amol-Talekar/travelocity","_blank")}  className={styles.projectButtonClass}>Visit Github</button>
+                        <button onClick={()=>window.open("https://drive.google.com/file/d/1I90WKSrjCl6g-uhEYBWewLubugQgJivw/view?usp=sharing","_blank")} className={styles.projectButtonClass}>Visit Demo</button>
+                    </div>
                 </Box>
                 
                 <Box data-aos="flip-right" className={classes.individualProjectBox} boxShadow={3}> 
@@ -159,7 +162,10 @@ const Home = () => {
                     <img className={styles.projectImgClass} alt="unbounce" src="/unbouncelogo.png" />
                     <p className={styles.projectParaClass}>unbounce.com, a website that specializes in creating custom landing pages.</p>
                     <p className={styles.projectParaClass}>Tech Stack : HTML, CSS3 and Advanced JavaScript </p>
-                    <button onClick={()=>window.open("https://github.com/Amol-Talekar/unbounce","_blank")} className={styles.projectButtonClass}>Visit Github</button>
+                    <div>
+                         <button onClick={()=>window.open("https://github.com/Amol-Talekar/unbounce","_blank")} className={styles.projectButtonClass}>Visit Github</button>
+                         <button onClick={()=>window.open("https://drive.google.com/file/d/1-DvXWgLJu5KS3PK177svT06w1EnlJSXC/view?usp=sharing","_blank")} className={styles.projectButtonClass}>Visit Demo</button>
+                    </div>
                 </Box>
 
                 <Box data-aos="zoom-in" className={classes.individualProjectBox} boxShadow={3}>                   
@@ -167,7 +173,10 @@ const Home = () => {
                     <img className={styles.projectImgClass} alt="makemytrip" src="/makemytriplogo.png" />
                     <p className={styles.projectParaClass}>Cloning makemytrip.com, a website that provides all services while planning a trip to any destination</p>
                     <p className={styles.projectParaClass}>Tech Stack : React, Redux, mongoDB, Material UI, HTML, CSS3 and JavaScript</p>
-                    <button onClick={()=>window.open("https://github.com/shubham007kumar/Makemytrip","_blank")} className={styles.projectButtonClass}>Visit Github</button>
+                   <div>
+                            <button onClick={()=>window.open("https://github.com/shubham007kumar/Makemytrip","_blank")} className={styles.projectButtonClass}>Visit Github</button>
+                            <button onClick={()=>window.open("https://drive.google.com/file/d/13tO8Cm_0lQE7nNaxy4TB6Ovky_DGpCxU/view?usp=sharing","_blank")} className={styles.projectButtonClass}>Visit Demo</button>
+                    </div>
                 </Box>
 
                 
