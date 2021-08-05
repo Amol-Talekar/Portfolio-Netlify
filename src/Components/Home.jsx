@@ -19,7 +19,7 @@ const useStyles = makeStyles({
      margin:"1vw",
      padding:"2vw",
      justifyContent:"center",
-     marginTop:"10vh"
+     marginTop:"8vh"
     },
     individualTechBox:{
         padding:"10px",
@@ -70,7 +70,7 @@ const Home = () => {
 
    
     return (
-        <Box boxShadow={3} >
+        <Box  >
            
         <div className={styles.mainHomeDiv}>
             <div className={styles.aboutFirstGrid} id="about">
