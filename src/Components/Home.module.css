@@ -3,6 +3,7 @@
     margin: auto;
     box-shadow: 10px;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 2vh;
 }
 .profileImgClass{
     border-radius: 50%;
@@ -16,14 +17,15 @@
     padding: 1vw;
     margin: 1vw;
     color: gray;
+    margin-top: 12vh;
 }
 .abouth2Class{
-    font-size: 1.5vw;
+    font-size: 1.7vw;
     font-weight: lighter;
     font-family: 'Open Sans', sans-serif;
 }
 .abouth1Class{
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
 }
@@ -45,7 +47,7 @@
 .headingAlignClass{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2vw;
+    font-size: 4vw;
 }
 .externalLinksClass{
     font-size: 2vw;
@@ -82,6 +84,7 @@
     font-size: 1.8vw;
     border-radius: 20px;
     background-color: white;
+    margin-right: 2vw;
     
 }
 .projectButtonClass:hover{
@@ -299,7 +302,7 @@
         font-size: 4vw;
     }
     .abouth2Class{
-        font-size: 2.3vw;
+        font-size: 2.5vw;
         font-weight: normal;
         font-family: 'Open Sans', sans-serif;
     }

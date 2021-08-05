@@ -18,7 +18,8 @@ const useStyles = makeStyles({
     techBox: {
      margin:"1vw",
      padding:"2vw",
-     justifyContent:"center"
+     justifyContent:"center",
+     marginTop:"6vh"
     },
     individualTechBox:{
         padding:"10px",
@@ -29,14 +30,15 @@ const useStyles = makeStyles({
     projectBox:{
         margin:"1vw",
         padding:"1vw",
-        justifyContent:"center" 
+        justifyContent:"center",
+        marginTop:"6vh"
     },
     individualProjectBox:{
         margin:"1vw",
         padding:"1vw",
         backgroundColor:"rgb(250, 249, 249)",
         marginBottom:"4vh",
-        marginTop:"4vh"
+        marginTop:"6vh"
     },
     contactBox:{
         margin:"1vw",
