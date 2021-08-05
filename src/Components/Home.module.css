@@ -18,6 +18,7 @@
     margin: 1vw;
     color: gray;
     margin-top: 12vh;
+    margin-bottom: 8vh;
 }
 .abouth2Class{
     font-size: 1.7vw;
@@ -90,6 +91,11 @@
 .projectButtonClass:hover{
     color: blue;
    
+}
+.projectButtonDivClass{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 .contactClass{
     text-decoration: none;
@@ -292,17 +298,17 @@
         font-family: 'Open Sans', sans-serif;
     }
     .abouth1Class{
-        font-size: 3vw;
+        font-size: 3.5vw;
         font-weight: bold;
         font-family: 'Open Sans', sans-serif;
     }
     .headingAlignClass{
         text-align: center;
         font-family: 'Open Sans', sans-serif;
-        font-size: 4vw;
+        font-size: 6vw;
     }
     .abouth2Class{
-        font-size: 2.5vw;
+        font-size: 2.8vw;
         font-weight: normal;
         font-family: 'Open Sans', sans-serif;
     }
